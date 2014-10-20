@@ -1,0 +1,14 @@
+-Xms128m
+-Xmx750m
+-XX:MaxPermSize=350m
+-XX:ReservedCodeCacheSize=96m
+-ea
+-Dsun.io.useCanonCaches=false
+-Djava.net.preferIPv4Stack=true
+-Djsse.enableSNIExtension=false
+-XX:+UseCodeCacheFlushing
+-XX:+UseConcMarkSweepGC
+-XX:SoftRefLRUPolicyMSPerMB=50
+-XX:+HeapDumpOnOutOfMemoryError
+-Didea.platform.prefix=AndroidStudio
+-Didea.paths.selector=AndroidStudioBeta
